@@ -14,7 +14,7 @@ public:
     }
 
     void addEdge(int v, int w) {
-        adj[v].push_back(w); // Directed graph
+     adj[v].push_back(w); // Directed graph
         // For undirected graph, also add: adj[w].push_back(v);
     }
 
